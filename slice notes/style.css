@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: rgb(240, 246, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.click{
+    background-color: rgb(245, 150, 8);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px  20px;
+    cursor: pointer;
+    letter-spacing: 0.4rem;
+    margin-bottom: 40px;
+}
+.click:active{
+    /* when we click on click me button it moves up or down*/
+    transform : translateY(3px); 
+}
+.box-container{
+    background-color: aqua;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content:space-around;
+}
+.box-container.big{
+    width: 600px;
+    height: 600px;
+}
+
+.box{
+    background-image :url('https://media3.giphy.com/media/HlmYO0C0DsZVixtWMT/giphy.gif');
+    background-size: 500px 500px;
+    position: relative;
+    width: 125px;
+    height: 25%;
+
+
+}
